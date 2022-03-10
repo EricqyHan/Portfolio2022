@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  /* margin: 0; */
+}
+
+body {
+  margin: auto 0;
+  display: grid;
+  /* height: 100vh; */
+}
+
+header,
+main,
+footer {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+/* ------------------------------------ */
+/* ------------- Header --------------- */
+/* ------------------------------------ */
+
+/* Cursive Logo Image */
+.myLogo {
+  /* width: 15%; */
+  width: 200px;
+  height: auto;
+  border: 2px solid black;
+  margin-right: auto;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  font-size: 1em;
+  margin: 0;
+}
+
+li {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.move {
+  padding-top: 35px;
+}
+
+.nav-left {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dark-mode {
+  width: 50px;
+  height: 50px;
+}
+
+/* ------------------------------------ */
+/* ------------- Header --------------- */
+/* ------------------------------------ */
+
+.landing {
+  display: grid;
+  height: 70vh;
+  justify-content: space-around;
+  align-items: center;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr; /* border: 5px solid pink; */
+  justify-items: center;
+}
+
+#welcome {
+  justify-content: center;
+}
+
+#welcome h1 {
+  font-size: 36px;
+}
+
+#self-picture {
+  border-radius: 50%;
+  /* height: 350px; */
+  width: 50%;
+}
+
+/* -------------------------------------------- */
+/* ------------- Media Queries --------------- */
+/* ------------------------------------------ */
+
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+}
