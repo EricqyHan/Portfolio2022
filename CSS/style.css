@@ -62,7 +62,7 @@ img {
 
 /* intro styles */
 #intro {
-  /* border: 3px solid pink; */
+  border: 3px solid pink;
   padding: 4rem 1rem 10rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -173,6 +173,7 @@ nav {
   font-family: var(--mono);
   font-size: 80%;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 nav h1 a {
@@ -323,6 +324,9 @@ img #my-img {
     text-align: left;
     margin-right: auto;
   }
+}
+
+@media screen and (max-width: 550px) {
 }
 
 [data-typewriter] {
