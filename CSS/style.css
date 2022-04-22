@@ -14,6 +14,8 @@
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
   --charm: rgb(84, 45, 255);
+  --oceanblue: #639cd9;
+  --oceanblue2: #5454c5;
 }
 
 /* border box model: https://css-tricks.com/box-sizing/ */
@@ -44,11 +46,11 @@ h3 {
 }
 
 a {
-  color: var(--magenta);
+  color: var(--oceanblue2);
 }
 
 a:hover {
-  color: var(--hotmag);
+  color: var(--oceanblue2);
   text-decoration: none;
 }
 
@@ -60,7 +62,7 @@ img {
 
 /* intro styles */
 #intro {
-  border: 3px solid pink;
+  /* border: 3px solid pink; */
   padding: 4rem 1rem 10rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -204,7 +206,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--magenta);
+  color: var(--oceanblue2);
 }
 
 /* target fa or fas */
@@ -212,21 +214,21 @@ nav a:hover {
 .footer li a,
 nav [class*="fa-"] {
   font-size: 150%;
-  color: var(--aqua);
+  color: var(--oceanblue);
 }
 
 nav h1 [class*="fa-"] {
   font-size: 150%;
-  color: var(--aqua);
+  color: var(--oceanblue);
 }
 
 nav a:hover,
 nav [class*="fa-"]:hover {
-  color: var(--magenta);
+  color: var(--oceanblue2);
 }
 
 .button {
-  background-color: var(--magenta);
+  background-color: var(--oceanblue);
   padding: 0.5rem;
   border-radius: 5px;
   color: white;
@@ -235,14 +237,14 @@ nav [class*="fa-"]:hover {
 }
 
 .resume {
-  background-color: var(--magenta);
+  background-color: var(--oceanblue);
   padding: 0.5rem;
   border-radius: 5px;
 }
 
 .resume:hover {
   color: white;
-  background-color: var(--hotmag);
+  background-color: var(--oceanblue2);
 }
 
 /* Footer */
@@ -273,12 +275,16 @@ img #my-img {
 }
 
 /* Media Queries */
-@media (min-width: 550px) {
+@media (min-width: 800px) {
   article {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
+  }
+  #projects {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   #projects img {
     grid-column: 1/6;
