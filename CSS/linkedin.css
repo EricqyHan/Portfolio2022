@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 239, 234);
+  display: grid;
+}
+
+/* ===============================================  */
+/*                  Header CSS                      */
+/* ===============================================  */
+
+.header {
+  border: 1px solid black;
+  display: flex;
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.myLogo {
+  width: auto;
+  height: 75px;
+}
+
+.header-nav {
+  display: flex;
+  list-style: none;
+  font-size: 1em;
+  margin: 0;
+}
+
+header > ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* my picture */
+.myPicture {
+  border-radius: 50%;
+  width: 10%;
+}
