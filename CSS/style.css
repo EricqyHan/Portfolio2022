@@ -62,7 +62,7 @@ img {
 
 /* intro styles */
 #intro {
-  border: 3px solid pink;
+  /* border: 3px solid pink; */
   padding: 4rem 1rem 10rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
