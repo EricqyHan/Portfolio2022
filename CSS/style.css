@@ -281,36 +281,36 @@ img #my-img {
 @media (min-width: 800px) {
   article {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(10, 1fr); */
     gap: 1rem;
   }
   #projects {
     max-width: 1200px;
     margin: 0 auto;
   }
-  #projects img {
+  /* #projects img {
     grid-column: 1/6;
     grid-row: 1/2;
-  }
+  } */
   .text {
     order: 2;
     text-align: right;
-    grid-column: 5/11;
-    grid-row: 1/2;
+    /* grid-column: 5/11;
+    grid-row: 1/2; */
   }
   #projects ul {
     justify-content: flex-end;
   }
   #projects .reverse .text {
-    grid-column: 1/7;
+    /* grid-column: 1/7; */
     order: 2;
     text-align: left;
   }
-  #projects .reverse img {
+  /* #projects .reverse img {
     grid-column: 6/11;
     grid-row: 1/2;
-  }
+  } */
   #projects .reverse ul {
     justify-content: flex-start;
   }
