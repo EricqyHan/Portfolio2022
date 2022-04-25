@@ -100,6 +100,7 @@ img {
 #projects h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
+  text-align: center;
 }
 
 #projects h3 {
@@ -157,11 +158,12 @@ img {
 
 .gradient {
   background: linear-gradient(
-    90deg,
-    rgba(255, 23, 228, 1) 0%,
-    rgba(134, 251, 251, 1) 100%
+    95deg,
+    rgba(232, 60, 0, 1) 31%,
+    rgba(235, 95, 106, 0.8421743697478992) 82%
   );
-  height: 2px;
+
+  height: 4px;
 }
 
 #contact p:last-child {
