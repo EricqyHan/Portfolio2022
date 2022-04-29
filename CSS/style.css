@@ -295,12 +295,12 @@ img #my-img {
   } */
   .text {
     order: 2;
-    text-align: right;
+    text-align: left;
     /* grid-column: 5/11;
     grid-row: 1/2; */
   }
   #projects ul {
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
   #projects .reverse .text {
     /* grid-column: 1/7; */
