@@ -366,3 +366,7 @@ img #my-img {
     transform: rotate(359deg);
   }
 }
+
+.codewars h3 {
+  text-align: center;
+}
