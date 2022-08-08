@@ -370,3 +370,7 @@ img #my-img {
 .codewars h3 {
   text-align: center;
 }
+
+h3 a {
+  color: var(--aqua);
+}
