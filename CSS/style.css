@@ -274,6 +274,34 @@ img #my-img {
   display: none;
 }
 
+@media screen and (max-width: 500px) {
+  [data-typewriter] {
+    font-family: system-UI;
+    font-weight: bold;
+    font-size: 2rem;
+    /* color: #d9376e; */
+    color: green;
+    height: 6rem;
+    border-right: 0.8rem solid transparent;
+    padding: 0.2rem;
+  }
+
+  [data-typewriter]:not(.typing) {
+    animation: blink-caret 1.1s step-end infinite;
+  }
+
+  @keyframes blink-caret {
+    0%,
+    100% {
+      border-color: transparent;
+    }
+
+    50% {
+      border-color: #ff8e3c;
+    }
+  }
+}
+
 /* Media Queries */
 @media (min-width: 800px) {
   article {
@@ -325,17 +353,14 @@ img #my-img {
   }
 }
 
-@media screen and (max-width: 550px) {
-}
-
 [data-typewriter] {
   font-family: system-UI;
   font-weight: bold;
-  font-size: 4.5rem;
+  font-size: 1.9rem;
   color: #d9376e;
   height: 6rem;
   border-right: 0.8rem solid transparent;
-  padding: 0.6rem;
+  padding: 0.2rem;
 }
 
 [data-typewriter]:not(.typing) {

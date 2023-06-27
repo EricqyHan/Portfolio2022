@@ -2,8 +2,8 @@ class Typerwriter {
   constructor(el, options) {
     this.el = el;
     this.words = [...this.el.dataset.typewriter.split(",")];
-    this.speed = options?.speed || 100;
-    this.delay = options?.delay || 1500;
+    this.speed = options?.speed || 90;
+    this.delay = options?.delay || 2500;
     this.repeat = options?.repeat;
     this.initTyping();
   }
