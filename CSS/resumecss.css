@@ -74,6 +74,10 @@ a {
   color: var(--mainTextColor);
 }
 
+#download {
+  text-decoration: underline gray;
+}
+
 #socials--list {
   display: flex;
   justify-content: space-between;
