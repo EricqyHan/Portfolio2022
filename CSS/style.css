@@ -126,8 +126,17 @@ img {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  gap: 1rem;
+  gap: 0.2rem;
   font-size: 1rem;
+}
+
+/* test css for adding | between technolgies */
+h4 + ul li::after {
+  content: " | ";
+}
+
+h4 + ul li:last-child::after {
+  content: "";
 }
 
 #projects img {
