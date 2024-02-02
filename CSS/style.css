@@ -139,12 +139,18 @@ h4 + ul li:last-child::after {
   content: "";
 }
 
-#projects img {
+#projects img,
+#projects iframe {
   margin: 2rem 0 4rem 0;
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
   padding: 1rem;
+}
+
+iframe {
+  width: 100%;
+  height: 75%;
 }
 
 /* Contact-me */
