@@ -1,3 +1,9 @@
+// Auto year for copyright 
+const yearSpan = document.querySelector('#currentYear');
+const currentYear = new Date();
+yearSpan.innerText = currentYear.getFullYear();
+
+
 class Typerwriter {
   constructor(el, options) {
     this.el = el;
